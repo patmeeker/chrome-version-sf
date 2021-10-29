@@ -1,0 +1,19 @@
+{
+  "name": "chrome version for SF",
+  "version": "1.001",
+  "description": "Display the chrome version when on salesforce.com",
+  "author": "Pat Meeker",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "chrome version for salesforce tab"
+  },
+  "icons": { "19": "19transparent.png"},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["tabs"]
+}
+
+
+
